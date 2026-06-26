@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atharv Gupta | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo">
+            <span style="color: aliceblue; background: none; -webkit-text-fill-color: aliceblue;">Atharv</span><span> Gupta</span>
+        </a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="tel:9214744437" class="gradient-btn">
+            📞 9214744437
+        </a>
+    </header>
+
+    <!-- HOME SECTION -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi! , It's <span>Atharv</span></h1>
+            <h3>I'm a <span>Web Developer</span></h3>
+            <p>Passionate web developer crafting beautiful, responsive, and user-friendly digital experiences. I turn ideas into reality with clean code and creative design.</p>
+            <div class="social-icons">
+                <a href="https://github.com" target="_blank"><i class="bx bxl-github"></i></a>
+                <a href="https://www.linkedin.com/in/atharv-gupta-602273381/?isSelfProfile=false" target="_blank"><i class="bx bxl-linkedin-square"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="bx bxl-instagram-alt"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="bx bxl-twitter"></i></a>
+            </div>
+            <div class="btn-group">
+                <a href="#" class="btn">Hire Me</a>
+                <a href="#contact" class="contact">Contact</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="image.jpeg" alt="Atharv Gupta">
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="image.jpeg" alt="About Atharv">
+        </div>
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p>I'm a passionate web developer with expertise in building modern, responsive websites. I love turning complex problems into simple, beautiful and intuitive designs. My goal is to create impactful digital experiences that make a difference.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bxl-figma"></i>
+                    <h4>UI / UX Design</h4>
+                    <p>Creating beautiful, intuitive user interfaces and experiences that delight users. From wireframes to polished designs, I bring your vision to life with modern design principles.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bxl-html5"></i>
+                    <h4>Web Development</h4>
+                    <p>Building fast, responsive, and modern websites using the latest technologies. Clean code, great performance, and pixel-perfect implementation every time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+        <div class="projects-box">
+            <div class="project-card">
+                <img src="https://via.placeholder.com/300x200?text=GitHub+Profile+Founder" alt="GitHub Profile Founder">
+                <h3>GitHub Profile Founder</h3>
+                <p>Create and customize your GitHub profile with an interactive builder. Generate stunning README files and profile documentation effortlessly.</p>
+                <a href="https://githubprofilefounder.netlify.app/" target="_blank" class="project-link">View Project →</a>
+            </div>
+            <div class="project-card">
+                <img src="https://via.placeholder.com/300x200?text=Work+To+Done" alt="Work To Done">
+                <h3>Work To Done</h3>
+                <p>A productivity-focused task management application. Organize your daily tasks, set priorities, and track completion with a beautiful intuitive interface.</p>
+                <a href="https://worktodone.netlify.app/" target="_blank" class="project-link">View Project →</a>
+            </div>
+            <div class="project-card">
+                <img src="https://via.placeholder.com/300x200?text=Creative+Web+App" alt="Creative Web App">
+                <h3>Creative Web App</h3>
+                <p>An innovative web application showcasing modern design patterns and smooth animations. Built with cutting-edge technologies for optimal user experience.</p>
+                <a href="https://boisterous-manatee-fd6355.netlify.app/" target="_blank" class="project-link">View Project →</a>
+            </div>
+            <div class="project-card">
+                <img src="https://via.placeholder.com/300x200?text=Dictionary+App" alt="Dictionary App">
+                <h3>Dictionary App</h3>
+                <p>A feature-rich dictionary application with word definitions, pronunciations, examples, and etymology. Search instantly and save your favorite words.</p>
+                <a href="https://dictionarye.netlify.app/" target="_blank" class="project-link">View Project →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form id="contactForm">
+            <div class="input-group">
+                <input type="text" id="fullName" placeholder="Full Name" required>
+                <input type="email" id="email" placeholder="Email" required>
+            </div>
+            <div class="input-group">
+                <input type="tel" id="phone" placeholder="Phone Number">
+                <input type="text" id="subject" placeholder="Subject" required>
+            </div>
+            <div class="input-group-2">
+                <textarea id="message" placeholder="Your Message" rows="6" required></textarea>
+                <button type="submit" class="btn" id="submitBtn">Send Message</button>
+            </div>
+            <p id="formStatus" class="form-status"></p>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="https://github.com" target="_blank"><i class="bx bxl-github"></i></a>
+            <a href="https://www.linkedin.com/in/atharv-gupta-602273381/?isSelfProfile=false" target="_blank"><i class="bx bxl-linkedin-square"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="bx bxl-instagram-alt"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="bx bxl-twitter"></i></a>
+        </div>
+        <p class="footer-text">&copy; 2025 Atharv Gupta. All rights reserved.</p>
+        <p class="footer-text">📧 gatharv325@gmail.com | 📞 +91 9214744437 | 📍 Lucknow, Uttar Pradesh</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
